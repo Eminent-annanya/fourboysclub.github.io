@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>four boys club</title>
+    
+</head>
+<style>
+    *{
+    font-family: 'Dancing Script', cursive;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+
+
+
+.navbar li{
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar li a:hover{
+    font-size: 1.5rem;
+    color: #661cb6;
+}
+
+.intro {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("../static/intro.jpg");
+    width: 100%;
+    height: 90vh;
+    /* background-color: red; */
+    margin: 0%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.intro h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    color: white;
+    
+}
+
+
+.intro h1:hover{
+    margin: 10px 20px;
+    cursor: wait;
+}
+
+.middel{
+    width: 100%;
+    justify-content: center;
+}
+
+.middel h1{
+    font-size: 1.8rem;
+}
+
+.sponsor{
+    justify-content: center;
+    display: flex;
+}
+
+.sponsers{
+    width: 20%;
+}
+
+.footer{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+.footer h1{
+    font-size: 0.3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 2px;
+}
+
+@media only screen and (max-width:859px){
+    .intro h1{
+        font-size: 1.8rem;
+    }
+    .middel h1{
+    font-size: 0.8rem;
+    }
+
+}
+
+@media only screen and (max-width:480px){
+
+    .navbar li{
+     padding: 10px 5px;
+    font-size: 0.6rem;
+    }  
+    
+    .intro{
+        height: 50vh;
+        font-size: 0.2rem;
+    }
+    .sponsor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .sponsers{
+    width: 35%;
+    height: 35%;
+    margin-top: 15%;
+    }
+
+    .sponsers:hover{
+        background-color: #661cb6;
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width:276px){
+    .navbar li{
+        padding: 10px 2px;
+        font-size: 0.3rem;
+    }
+
+    .intro h1{
+        font-size: 0.8rem;
+    }
+    .middel h1{
+    font-size: 0.3rem;
+    }
+}
+
+</style>
+
+<body>
+    <nav class="navbar">
+        <UL>
+            <LI><a href="/">Home</a></LI>
+            <LI><a href="/about">About</a></LI>
+            <LI><a href="/workes">Our works</a></LI>
+            <LI><a href="/contact">Contact us</a></LI>
+            <li><a href="/blogs">blogs</a></li>
+        </UL>
+    </nav>
+
+    <section class="intro">
+        <h1> Raghu Nath Mahapatro </h1>
+        <p>Welcome to my world</p>
+    </section>
+
+    <section class="middel">
+        <h1> we have worked for :</h1>
+        <div class="sponsor">
+            <img src="static/loges/logo 2-0.png" alt="sponser images" class="sponsers">
+            <img src="static/loges/logo5.png" alt="sponser images" class="sponsers">
+            <img src="static/loges/MY LOGO.png" alt="sponser images" class="sponsers">
+            <img src="static/loges/untitled-1.jpg" alt="sponser images" class="sponsers">
+
+            
+
+        </div>
+    </section>
+
+   <!-- footer starts now -->
+   <div class="footer">
+        <h1>all rights reserved @eminent</h1>
+   </div>
+
+</body>
+
+</html>
